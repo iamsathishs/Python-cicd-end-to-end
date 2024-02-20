@@ -40,6 +40,7 @@ pipeline {
         
         stage('Checkout K8S manifest SCM'){
             steps {
+                sh 'echo passed'
                 
                 //url: 'https://github.com/iamsathishs/Python-cicd-manifests-repo',
                 //branch: 'main'
