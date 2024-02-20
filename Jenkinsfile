@@ -42,8 +42,8 @@ pipeline {
             steps {
                 sh 'echo passed'
                 
-                //url: 'https://github.com/iamsathishs/Python-cicd-manifests-repo',
-                //branch: 'main'
+                url: 'https://github.com/iamsathishs/Python-cicd-manifests-repo.git',
+                branch: 'main'
             }
         }
         
